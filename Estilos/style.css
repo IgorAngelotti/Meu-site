@@ -157,6 +157,7 @@ a {
 }
 
 .botao>button:hover {
-    background-color: darkgray;
+
+    background-image: linear-gradient(to right, rgb(255, 85, 0) 20%, rgb(255, 132, 0));
 
 }
