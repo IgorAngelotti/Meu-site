@@ -22,6 +22,7 @@ main {
     height: 100%;
     margin: 20px 10px;
     border: 2px solid yellow;
+    border-radius: 5px;
 }
 
 
@@ -84,6 +85,7 @@ section:nth-child(odd) {
     background-color: rgb(87, 87, 87);
     box-shadow: 0px 0px 5px rgba(44, 44, 44, 0.422);
     transition: transform 0.15s ease-in-out;
+    border-radius: 3px;
 }
 
 
@@ -100,7 +102,7 @@ section:nth-child(odd) {
 }
 
 #box-javascript {
-    background-image: url(../Imagens/vecteezy_javascript-logo-png-javascript-icon-transparent-png_27127463.png);
+    background-image: url(../Imagens/logo-javascript.png);
     background-size: 100% 100%;
 
 }
@@ -119,14 +121,25 @@ section:nth-child(odd) {
     transform: scale(1.05);
 }
 
+#box-calculadora{
+    background-image: url(../Imagens/Calculadora-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#box-portfolio{
+    background-image: url(../Imagens/PORTFOLIO-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 section aside {
     background-image: linear-gradient(to right, rgb(255, 115, 0) 20%, yellow);
     max-width: 400px;
-    /* Defina o tamanho máximo desejado */
     width: 100%;
     padding: 5px;
     text-align: center;
+    border-radius: 2px;
 }
 
 aside>h2 {
@@ -146,6 +159,7 @@ button {
     background-image: linear-gradient(to right, rgb(255, 115, 0) 20%, yellow);
     font-weight: bolder;
     border: none;
+    border-radius: 2px;
 }
 
 .botao>button,
